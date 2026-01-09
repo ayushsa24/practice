@@ -12,7 +12,7 @@ import { FormsModule } from '@angular/forms';
       <div class="w-full max-w-lg bg-white rounded-2xl shadow-2xl p-8">
 
         <div class="text-center mb-8">
-          <h1 class="text-3xl font-bold text-gray-800">Create Your Account</h1>
+          <h1 class="text-3xkl font-bold text-gray-800">Create Your Account</h1>
           <p class="text-gray-500 mt-2">
             Join us and start shopping smarter
           </p>
@@ -34,11 +34,11 @@ import { FormsModule } from '@angular/forms';
 
           <div>
             <label class="block text-sm font-medium text-gray-700 mb-1">
-              Email Address
+              Username
             </label>
             <input
-              type="email"
-              placeholder="you@example.com"
+              type="text"
+              placeholder="Enter your username"
               class="w-full px-4 py-3 rounded-lg border border-gray-300
                      focus:outline-none focus:ring-2 focus:ring-indigo-500"
             />
